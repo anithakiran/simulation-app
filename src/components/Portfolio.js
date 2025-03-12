@@ -12,7 +12,7 @@ const Portfolio = ({ portfolio, sellStock }) => {
   return (
     <div className="portfolio">
       <h2>Portfolio</h2>
-      {Object.keys(portfolio).length === 0 ? ( // ✅ FIXED CONDITION
+      {Object.keys(portfolio).length === 0 ? (
         <p>No stock owned.</p>
       ) : (
         <table>
